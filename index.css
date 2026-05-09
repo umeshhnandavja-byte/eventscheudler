@@ -2,3 +2,12 @@ canvas{
     width: 2000px;
     height: 2000px;
 }
+#navbar{
+    text-decoration: none;
+    display: flex;
+}
+#elements{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
