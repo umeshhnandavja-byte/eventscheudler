@@ -1,3 +1,7 @@
+*{
+    border: 0%;
+    padding: 0%;
+}
 canvas{
     width: 2000px;
     height: 2000px;
@@ -9,5 +13,20 @@ canvas{
 #elements{
     display: flex;
     text-decoration: none;
-    list-style: none;
+    text-align: center;
+    padding: 1vh 1vh 1vw 0vw;
+    background-color: grey;
+}
+a{
+    background-color: white;
+    padding: 1vh 1vh 1vw 1vw;
+    margin-left: 1vw;
+}
+a:hover{
+    background-color: aquamarine;
+}
+button{
+    background: none;
+    border: 0;
+    font-weight: 900;
 }
